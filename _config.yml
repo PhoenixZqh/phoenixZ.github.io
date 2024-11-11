@@ -6,7 +6,7 @@ email: 1173688576@qq.com
 description: "Every failure is leading towards success."
 keyword: "cpp, uav, 感知, 算法"
 url: "https://phoenixzqh.github.io/phoenixZ.github.io/"          # your host, for absolute URL
-baseurl: "/phoenixZ.github.io/"      # for example, '/blog' if your blog hosted on 'host/blog'
+baseurl: "https://phoenixzqh.github.io/phoenixZ.github.io/"      # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/PhoenixZqh/phoenixZ.github.io.git" # you code repository
 
 # Sidebar settings
