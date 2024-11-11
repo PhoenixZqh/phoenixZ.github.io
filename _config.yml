@@ -12,7 +12,7 @@ github_repo: "https://github.com/PhoenixZqh/phoenixZ.github.io.git" # you code r
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "冉冉升起！"
-sidebar-avatar: img/avatar-by.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: /home/zqh/phoenixZ/catkin_ws/phoenixZ.github.io/img/zxc.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
