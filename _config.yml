@@ -1,46 +1,48 @@
 # Site settings
-title: PhoenixZ Blog
-SEOTitle: 不死鸟的博客 | PhoenixZ Blog
-header-img: /img/bg-little-universe.jpg
+title: Phoenix Blog
+SEOTitle: Phoenix的博客 | Phoenix Blog
+header-img: img/home-bg.jpg
 email: 1173688576@qq.com
-description: "Every failure is leading towards success."
-keyword: "cpp, uav, 感知, 算法"
-url: "https://phoenixzqh.github.io/phoenixZ.github.io/"          # your host, for absolute URL
-baseurl: "/phoenixZ.github.io/"      # for example, '/blog' if your blog hosted on 'host/blog'
-github_repo: "https://github.com/PhoenixZqh/phoenixZ.github.io.git" # you code repository
+description: "这里是 @PhoenixZ 的个人博客，与你一起发现更大的世界 | 要做一个有 swag 的程序员"
+keyword: "uav, perception, cpp, 算法, 目标融合，检测，跟踪"
+url: "https://phoenixzqh.github.io/phoenixZ.github.io/" # your host, for absolute URL
+baseurl: "/phoenixZ.github.io/" # for example, '/blog' if your blog hosted on 'host/blog'
 
-# Sidebar settings
-sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "冉冉升起！"
-sidebar-avatar: ../img/zxc.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
-
-
+# Publish posts or collection documents with a future date.
+future: true
 
 # SNS settings
 RSS: false
-zhihu_username:     
-github_username:    
-facebook_username: 
-jianshu_username:   
-
-
-
+weibo_username: 
+zhihu_username: 
+github_username: PhoenixZqh
+twitter_username: 
+#facebook_username:  huxproZ
+#linkedin_username:  firstname-lastname-idxxxx
 
 # Build settings
 # from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
+highlighter: rouge
 permalink: pretty
 paginate: 10
-exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
-anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
-
-
+exclude:
+  [
+    "less",
+    "node_modules",
+    "Gruntfile.js",
+    "package.json",
+    "README.md",
+    "README.zh.md",
+  ]
+anchorjs: true # if you want to customize anchor. check out line:181 of `post.html`
+# If you have timezone issue (e.g. #68) in China, uncomment to use this:
+#timezone: CN
 
 # Gems
 # from PR#40, to support local preview for Jekyll 3.0
-gems: [jekyll-paginate]
-
-
-
+# make sure you have this gem installed
+# `$ gem install jekyll-paginate`
+plugins: [jekyll-paginate]
 
 # Markdown settings
 # replace redcarpet to kramdown,
@@ -49,58 +51,41 @@ gems: [jekyll-paginate]
 markdown: kramdown
 highlighter: rouge
 kramdown:
-  input: GFM                            # use Github Flavored Markdown !important
+  input: GFM    
 
+# Disqus settings
+disqus_username: Phoenix
 
-
-# 评论系统
-# Disqus（https://disqus.com/）
-# disqus_username: qiubaiying
-
-# Gitalk
-# gitalk:
-#   enable: true    #是否开启Gitalk评论
-#   clientID: f2c84e7629bb1446c1a4                            #生成的clientID
-#   clientSecret: ca6d6139d1e1b8c43f8b2e19492ddcac8b322d0d    #生成的clientSecret
-#   repo: qiubaiying.github.io    #仓库名称
-#   owner: qiubaiying    #github用户名
-#   admin: qiubaiying
-#   distractionFreeMode: true #是否启用类似FB的阴影遮罩
-
-
-# 统计
+# Netease settings
+netease_comment: false
 
 # Analytics settings
 # Baidu Analytics
-ba_track_id: b50bf2b12b5338a1845e33832976fd68
+# ba_track_id: [your track id]
 
 # Google Analytics
-ga_track_id: 'UA-90855596-1'            # Format: UA-xxxxxx-xx
-ga_domain: auto               # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
+ga_track_id: "UA-49627206-1" # Format: UA-xxxxxx-xx
+ga_domain: huangxuan.me
 
-
-
-
+# Sidebar settings
+sidebar: true # whether or not using Sidebar.
+sidebar-about-description: "money make money <br> React Team @ Meta"
+sidebar-avatar: img/zxc.jpg # use absolute URL, seeing it's used in both `/` and `/about/`
 
 # Featured Tags
-featured-tags: true                     # 是否使用首页标签
-featured-condition-si: 1             # 相同标签数量大于这个数，才会出现在首页
-
-
+featured-tags: true # whether or not using Feature-Tags
+featured-condition-size: 1 # A tag will be featured if the size of it is more than this condition value
 
 # Progressive Web Apps
 chrome-tab-theme-color: "#000000"
 service-worker: true
 
-
+# MathJax rendering for layout:page (e.g. post preview)
+page-mathjax: false
 
 # Friends
-# friends: [
-#     {
-#         title: "WY",
-#         href: "http://zhengwuyang.com"
-#     },{
-#         title: "简书·BY",
-#         href: "http://www.jianshu.com/u/e71990ada2fd"
-#     }
-# ]
+friends:
+  [
+    { title: "dji psdk", href: "https://developer.dji.com/doc/payload-sdk-tutorial/cn/" },
+    { title: "MOT challenge", href: "https://motchallenge.net/" },
+  ]
