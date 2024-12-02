@@ -9,7 +9,6 @@ catalog: true
 tags:
     - cpp
 ---
-
 > 不同对象的调用方式不同，function和bind的出现是为了统一可调用对象的各种操作
 
 ```xml
@@ -27,12 +26,6 @@ tags:
 3. 头文件 `<functional>`
 
 ```cpp
-#include <functional>
-#include <iostream>
-#include <memory>
-#include <string>
-#include <vector>
-
 using namespace std;
 using namespace std::placeholders;
 
@@ -93,15 +86,6 @@ int main()
 ---
 
 ```cpp
-#include <functional>
-#include <iostream>
-#include <memory>
-#include <string>
-#include <vector>
-
-using namespace std;
-using namespace std::placeholders;
-
 void Test(int a)
 {
     cout << __func__ << "->" << a << endl;
