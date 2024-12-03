@@ -1,5 +1,5 @@
 # Site settings
-title: Phoenix Blog
+title: phoenix's Blog
 SEOTitle: Phoenix的博客 | Phoenix Blog
 header-img: img/home-bg.jpg
 email: 1173688576@qq.com
@@ -64,12 +64,12 @@ netease_comment: false
 # ba_track_id: [your track id]
 
 # Google Analytics
-ga_track_id: "UA-49627206-1" # Format: UA-xxxxxx-xx
-ga_domain: huangxuan.me
+# ga_track_id: "UA-49627206-1" # Format: UA-xxxxxx-xx
+# ga_domain: huangxuan.me
 
 # Sidebar settings
 sidebar: true # whether or not using Sidebar.
-sidebar-about-description: "money make money <br> React Team @ Meta"
+sidebar-about-description: "money make money <br> React Team @ github"
 sidebar-avatar: img/zxc.jpg # use absolute URL, seeing it's used in both `/` and `/about/`
 
 # Featured Tags
