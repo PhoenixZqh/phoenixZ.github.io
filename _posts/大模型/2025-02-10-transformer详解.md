@@ -1,3 +1,21 @@
+---
+layout:     post
+
+title:      transformer详解
+
+date:       2025-02-10
+
+author:     phoenixZ
+
+header-img: img/oip2.jpg
+
+catalog: true
+
+tags:
+    - 大模型
+    - transformer
+---
+
 # 整体流程
 
 # 位置编码
@@ -26,9 +44,7 @@
 
 ## 位置编码
 
-🍎 位置表示公式
-
-$$
+🍎 位置表示公式13BE-43BF
 PE_{(pos,2i)} = sin(pos/10000^{2i/d_{model}})     \tag{1}
 $$
 
