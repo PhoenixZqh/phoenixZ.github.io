@@ -7,7 +7,6 @@ author:     phoenixZ
 header-img: img/post-bg-keybord.jpg
 catalog: true
 tags:
-    - boss
     - cpp
 ---
 > 不同对象的调用方式不同，function和bind的出现是为了统一可调用对象的各种操作
